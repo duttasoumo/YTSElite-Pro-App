@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="#212221">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/offline_pic"
+        android:text="Sorry, it appers that you are offline"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/offline_pic"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/network_offline"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/retry_btn"
+        android:layout_below="@+id/offline_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="#7ab800"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_fontIconResource="&#xf1eb;"
+        fancy:fb_fontIconSize="20sp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="6dp"
+        fancy:fb_text="Retry"
+        fancy:fb_textSize="20sp"
+        fancy:fb_textColor="#FFFFFF" />
+
+</RelativeLayout>

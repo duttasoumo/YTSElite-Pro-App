@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YTS Elite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="youtube_api_key">AIzaSyDs7m5ciZ8Enxv82D_-b1e5bFBW7FZbZ5M</string>
+</resources>

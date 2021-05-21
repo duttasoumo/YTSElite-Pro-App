@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_filter"
+            android:icon="@drawable/ic_filter_list_nav"
+            android:title="Apply filters" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_fav_nav"
+            android:title="Movie of the week" />
+
+
+    </group>
+
+    <item android:title="Support us">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_info_black_nav"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
